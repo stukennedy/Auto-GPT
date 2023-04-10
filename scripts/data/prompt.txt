@@ -60,4 +60,5 @@ RESPONSE FORMAT:
     }
 }
 
-Ensure the response can be parsed by Python json.loads
+Only respond with JSON, do not write any text outside of the JSON.
+Ensure the entire response can be parsed by Python json.loads
